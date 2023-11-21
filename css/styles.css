@@ -3,15 +3,57 @@
 :root {
     --bg: #1A3027;
     --font1: #FFE6CC;
-    --font2: #D4AC6F
+    --font2: #D4AC6F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: var(--bg);
+    margin: 5rem;
 }
 
-.main-title p {
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.main-title .creator-name {
     font-family: font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    color: var(--font2);
+}
+
+.main-title h1 {
     font-size: 2rem;
     color: var(--font1);
+}
+
+.main-title .motto {
+    color: var(--font1);
+    max-width: 100%;
+}
+
+.main-title .links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.main-title a {
+    text-decoration: none;
+    color: var(--font2);
+    border: 1px solid var(--font2);
+    padding: 0.5rem 1rem;
+}
+
+.main-title img{
+    max-width: 100%;
 }
