@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans&family=Young+Serif&display=swap');
+
+:root {
+    --bg: #1A3027;
+    --font1: #FFE6CC;
+    --font2: #D4AC6F
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.main-title p {
+    font-family: font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: var(--font1);
+}
